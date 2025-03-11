@@ -133,6 +133,24 @@ footer {
 .intro {
     animation: fadeSlideUp 1s ease-out;
 }
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+    background-color: #000;
+}
+
+body.dark-mode nav ul {
+    background: #000;
+}
+
+body.dark-mode .project {
+    background: #333;
+    color: #fff;
+}
 @media (max-width: 600px) {
     .projects-grid {
         grid-template-columns: 1fr;
